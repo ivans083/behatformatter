@@ -1,11 +1,16 @@
 {
-    "name": "elkan/behatformatter",
-    "description": "This will create a formatter for Behat 3! Fast, Easy and Pretty!",
+    "name": "ivans083/behatformatter",
+    "description": "BehatFormatter forked from elkan/behatformatter",
     "license": "MIT",
     "authors": [
         {
             "name": "Elkan Roelen",
             "email": "roelen@elkan.nl"
+        },
+        {
+            "name": "Ivan Solomonoff",
+            "email": "ivansolomonoff@gmail.com",
+            "role": "contributor"
         }
     ],
     "minimum-stability": "dev",
