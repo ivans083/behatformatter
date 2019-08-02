@@ -80,18 +80,20 @@
 
                 <div class="col-md-12">
                     <div class="panel panel-default">
-                        {% if projectname != null %}
-                        <div class="panel-heading text-center">
-                            <h2>{{ projectname }}</h2>
-                        </div>
+                        {% if projectimage != null %}
+                            <div class="panel-body text-center">
+                                <img src="{{ projectimage }}"><br>
+                            </div>
                         {% endif %}
-                        {% if projectimage != null and projectdescription != null %}
-                        <div class="panel-body text-center">
-                            {% if projectimage != null %}
-                            <img src="{{ projectimage }}"><br>
-                            {% endif %}
-                            {{ projectdescription }}
-                        </div>
+                        {% if projectname != null %}
+                            <div class="panel-heading text-center">
+                                <h2>{{ projectname }}</h2>
+                            </div>
+                        {% endif %}
+                        {% if projectdescription != null %}
+                            <div class="panel-body text-center">
+                                {{ projectdescription }}
+                            </div>
                         {% endif %}
                     </div>
                 </div>
